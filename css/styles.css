@@ -1,0 +1,189 @@
+       body {
+           background-color: white;
+       }
+       
+       #title {
+           background-color: #f63e50;
+           color: white;
+       }
+       
+       h1 {
+           line-height: 1.5;
+           padding: 27px;
+       }
+       
+       .container {
+           padding: 3% 15% 7%;
+       }
+       
+       .heading1 {
+           padding: 1%;
+           color: white;
+       }
+       
+       #h1_heading {
+           font-size: 4rem;
+           font-weight: 700;
+       }
+       
+       #brand {
+           font-size: 2.5rem;
+           font-weight: bold;
+           padding-left: 29px;
+       }
+       
+       .buttons {
+           margin-left: 30px;
+       }
+       
+       .phone-img {
+           width: 17%;
+           transform: rotate(25deg);
+           margin: 4% auto;
+           position: absolute;
+           left: 60%;
+       }
+       
+       .navbar {
+           padding-bottom: 2.5rem;
+       }
+       
+       .nav-item {
+           padding: 15px 15px;
+           font-weight: bold;
+           color: white;
+       }
+       
+       .nav-link {
+           font-family: 'Montserrat-light', sans-serif;
+           color: white;
+           font-size: 1.2rem;
+       }
+       
+       .download-buttons {
+           margin: 2% 3% 2% 0%;
+       }
+       /* Features-section */
+       
+       #features {
+           background-color: white;
+           position: relative;
+       }
+       
+       .icon1 {
+           color: #f63e50;
+       }
+       
+       .icon1:hover {
+           color: #ff4668;
+       }
+       
+       .check-section {
+           text-align: center;
+       }
+       
+       .container-fluid {
+           padding: 13.5% 22%;
+           margin: 0% auto;
+       }
+       
+       .h3-headings {
+           font-family: 'Montserrat-bold', sans-serif;
+           font-size: 2.5rem;
+           font-weight: 800;
+           color: white;
+       }
+       /* Testimonial-section */
+       
+       #testimonials {
+           text-align: center;
+           background-color: #f63e50;
+           color: #fff;
+           z-index: 0;
+       }
+       
+       .testimonial-image {
+           width: 10%;
+           border-radius: 100%;
+           margin: 20px;
+       }
+       /* Press-section */
+       
+       #press {
+           background-color: #f63e50;
+           text-align: center;
+           padding-bottom: 3%;
+       }
+       
+       .press-logo {
+           width: 15%;
+           margin: 20px 20px auto;
+           /* top,left-right,bottom*/
+       }
+       
+       .carousel-item {
+           padding: 7% 15%;
+       }
+       /* Pricing-section */
+       
+       #pricing {
+           padding: 5% 10%;
+           text-align: center;
+           margin: auto;
+       }
+       
+       .Pricing-heading {
+           margin-bottom: 5%;
+       }
+       
+       #pricing-btn {
+           padding: 1% 30%;
+       }
+       
+       #card-header {
+           color: white;
+           background-color: #f63e50;
+       }
+       
+       @media(max-width:990px) {
+           #title {
+               text-align: center;
+           }
+           .phone-img {
+               position: static;
+               transform: rotate(0deg);
+               width: 50%;
+           }
+       }
+       /* Call to action -cta */
+       
+       #cta {
+           background-color: #f63e50;
+           padding: 5% 15%;
+           text-align: center;
+       }
+       
+       .cta-section {
+           padding: 2% 18%;
+           line-height: 2;
+           color: white;
+       }
+       
+       .h3-headings {
+           font-family: 'Montserrat-bold', sans-serif;
+           font-size: 2.5rem;
+           font-weight: 900;
+           color: white;
+           line-height: 1.5;
+       }
+       /* footer */
+       
+       #footer {
+           padding: 5% 15%;
+           color: black;
+           text-align: center;
+       }
+       
+       .social-icons {
+           word-spacing: 4px;
+       }
